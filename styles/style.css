@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins";
+  font-size: 16px;
+  background-color: #f8f8f8;
+}
+.content {
+  display: flex;
+}
+
+/* Sldebar styles */
+.sldebar {
+  max-width: 230px;
+  width: 100%;
+  padding-top: 55px;
+  padding-bottom: 30px;
+  height: 100vh;
+  position: fixed;
+  background-color: #fff;
+}
+.sldebar__logo {
+  padding-left: 29px;
+}
+
+.sldebar__logo a {
+  color: #013cc6;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.sldebar__nav {
+  margin-top: 65px;
+  margin-left: 41px;
+}
+
+.sldebar__nav a {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 41px;
+  color: #131313;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  opacity: 0.65;
+  /* transition: all 0.3s; */
+}
+
+.sldebar__nav a:hover {
+  filter: invert(25%) sepia(99%) saturate(4499%) hue-rotate(220deg)
+    brightness(98%) contrast(99%);
+
+  opacity: 1;
+}
+
+.sldebar__footer a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 41px;
+  color: #131313;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  gap: 16px;
+  opacity: 0.65;
+  /* margin-top: 1095px; */
+}
+
+.sldebar__footer a:hover {
+  filter: invert(25%) sepia(99%) saturate(4499%) hue-rotate(220deg)
+    brightness(98%) contrast(99%);
+  opacity: 1;
+}
+
+/* Header styles */
+.main {
+  background-color: #f8f8f8;
+  margin-left: 230px;
+}
+
+.container {
+  width: 1130px;
+}
+
+.header__container {
+  padding: 50px 0px 50px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input[type="text_"] {
+  border-radius: 3px;
+  border: 1px solid rgb(140, 132, 132);
+  background: #fff;
+
+  background-image: url("../img/search-normal.svg");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 14px 20px 14px 50px;
+
+  color: #ada7a7;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  width: 655px;
+  height: 52px;
+  flex-shrink: 0;
+  /* opacity: 0.2; */
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.call {
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: #fff;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: #ffbc0f;
+  margin-top: -60px;
+  margin-left: 50px;
+}
+
+.call a {
+  padding: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.Sales__Information {
+  width: 1130px;
+  margin-left: 40px;
+}
+
+.Sales__Information .text {
+  margin-top: 44px;
+  margin-bottom: 24px;
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Information_main h4 {
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+input[type="text"] {
+  display: inline-flex;
+  height: 50px;
+  padding: 13px 66px 13px 24px;
+  align-items: center;
+  flex-shrink: 0;
+  width: 266px;
+  border-radius: 3px;
+  border: 1px solid rgba(19, 19, 19, 0.25);
+  background: #fff;
+}
+
+input[type="date"] {
+  display: flex;
+  height: 50px;
+  padding: 13px 20px 13px 24px;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 266px;
+  border-radius: 3px;
+  border: 1px solid rgba(19, 19, 19, 0.25);
+  background: #fff;
+}
+
+.table {
+  margin-left: 40px;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: white;
+  gap: 30px;
+}
+
+table tr {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+table .check {
+  width: 3%;
+}
+
+table .ID {
+  width: 7%;
+  text-align: start;
+}
+
+table .date {
+  width: 10%;
+  text-align: start;
+}
+
+table .cust {
+  width: 15%;
+  text-align: start;
+}
+
+table .payable {
+  width: 13%;
+  text-align: start;
+}
+
+table .paid {
+  width: 13%;
+  margin-left: 20px;
+  text-align: start;
+}
+
+table .Due {
+  width: 5%;
+  text-align: start;
+}
+
+table td {
+  /* width: 10%; */
+}

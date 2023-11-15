@@ -14,11 +14,126 @@
     <link rel="stylesheet" href="./styles/style.css" />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="rasm" type="image/x-icon" />
-    <title>Document</title>
+    <link rel="shortcut icon" href="Admin" type="image/x-icon" />
+    <title>ADMIN</title>
   </head>
   <body>
+    <div class="content">
+      <!-- Sldebar styles -->
 
-    
+      <div class="sldebar">
+        <div class="sldebar__logo">
+          <a href="#">Sales.</a>
+        </div>
+        <div class="sldebar__nav">
+          <a href="#">
+            <img src="./img/dashboard.svg" alt="" />
+            <p>Dashboard</p>
+          </a>
+          <a href="#">
+            <img src="./img/Lab_test.svg" alt="" />
+            <p>Lab test</p>
+          </a>
+          <a href="#">
+            <img src="./img/Appointment.svg" alt="" />
+            <p>Appointment</p>
+          </a>
+          <a href="#">
+            <img src="./img/Medicine_order.svg" alt="" />
+            <p>Medicine order</p>
+          </a>
+          <a href="#">
+            <img src="./img/Message.svg" alt="" />
+            <p>Message</p>
+          </a>
+          <a href="#">
+            <img src="./img/Payment.svg" alt="" />
+            <p>Payment</p>
+          </a>
+          <a href="#">
+            <img src="./img/settings.svg" alt="" />
+            <p>settings</p>
+          </a>
+        </div>
+        <div class="sldebar__footer">
+          <a href="#">
+            <img src="./img/Question.svg" alt="" />
+            <p>Question</p>
+          </a>
+        </div>
+      </div>
+      <div class="main">
+        <!-- Header styles -->
+        <header class="header">
+          <div class="header__container container">
+            <div class="input">
+              <input type="text_" placeholder="Search" />
+            </div>
+            <div class="user">
+              <div class="call">
+                <a href="#"
+                  ><img src="./img/notification-bing.svg" alt="call icon"
+                /></a>
+                <div class="dot"></div>
+              </div>
+              <div class="avatar">
+                <a href="#"><img src="./img/Avtar.svg" alt="User avatar" /></a>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="Sales__Information container">
+          <div class="text">
+            <h3>Sales Information</h3>
+          </div>
+          <div class="Information">
+            <div class="Information_main">
+              <h4>Customer</h4>
+              <input type="text" placeholder="Enter Costumer Name" />
+            </div>
+
+            <div class="Information_main">
+              <h4>Invoice ID</h4>
+              <input type="text" placeholder="Enter Invoice ID" />
+            </div>
+
+            <div class="Information_main">
+              <h4>Start Date</h4>
+              <input type="date" placeholder="Start Date" />
+            </div>
+
+            <div class="Information_main">
+              <h4>End Date</h4>
+              <input type="date" value="" placeholder="End Date" />
+            </div>
+          </div>
+        </div>
+
+        <div class="table">
+          <table>
+            <tr>
+              <th class="check"><input type="checkbox" /></th>
+              <th class="ID">Invoice ID</th>
+              <th class="date">Date</th>
+              <th class="cust">Customer</th>
+              <th class="payable">Payable Amount</th>
+              <th class="paid">Paid Amount</th>
+              <th class="Due">Due</th>
+            </tr>
+
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>#AHGA68</td>
+              <td>23/09/2022</td>
+              <td>Jacob Marcus</td>
+              <td>$100</td>
+              <td>$000</td>
+              <td>$000</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
