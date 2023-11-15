@@ -74,6 +74,8 @@ body {
   letter-spacing: 0.32px;
   gap: 16px;
   opacity: 0.65;
+  margin-top: 80px;
+
   /* margin-top: 1095px; */
 }
 
@@ -110,7 +112,7 @@ input[type="text_"] {
   background-repeat: no-repeat;
   padding: 14px 20px 14px 50px;
 
-  color: #ada7a7;
+  color: #000000;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -155,7 +157,6 @@ input[type="text_"] {
 }
 
 .Sales__Information .text {
-  margin-top: 44px;
   margin-bottom: 24px;
   color: #000;
   font-size: 24px;
@@ -206,17 +207,24 @@ input[type="date"] {
 .table {
   margin-left: 40px;
   margin-top: 40px;
+  margin-bottom: 40px;
   padding: 20px;
   background-color: white;
   gap: 30px;
 }
 
-table tr {
-  border-bottom: 1px solid #f2f2f2;
+.table tr {
+  border: 1px solid #000000;
+  height: 50px;
+}
+
+hr {
+  border: 1px solid #000000;
 }
 
 table .check {
   width: 3%;
+  text-align: start;
 }
 
 table .ID {
@@ -250,3 +258,31 @@ table .Due {
   text-align: start;
 }
 
+tr {
+  border-bottom: 1px solid black;
+}
+
+td {
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.65;
+}
+
+.id_text {
+  color: #0b63f8;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 1;
+}
+
+td a {
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.9;
+  text-decoration: none;
+}
